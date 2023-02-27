@@ -19,7 +19,7 @@ I forked the repository. i then confirmed the fork, and now have the lab7 reposi
 The real deal Start the timer! - during the lab I got to a time of 1:20.
 ## Step 4
 Log into ieng6
-![Image](lab4 -5.png)
+![Image](lab4-5.png)
 I first opened terminal. I then entered bash in the terminal. Once inside of bash I logged into ieng6 by tyoing `ssh cs15lwi23aez@ieng6.ucsd.edu`.
 
 
