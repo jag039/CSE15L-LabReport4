@@ -48,8 +48,11 @@ I recompiled all files and re-ran the junit tests. I did this again by copying a
 Commit and push the resulting change to your Github account
 ![Image](lab4-12.png)
 I fully typed the commands
+ 
 `git add ListExamples.java`
+ 
 `git commit -m "updated file"`
+ 
 `git push`
 
  
