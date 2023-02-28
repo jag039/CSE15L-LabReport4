@@ -33,9 +33,26 @@ First I changed into the lab7 directory. Then I compiled all files in the direct
 ## Step 7
 Edit the code file to fix the failing test
 ![Image](lab4-9.png)
+
 I typed nano List, then <tab> in order to auto complete ListExamples. I then added ".java" to the end to open the "ListExamples.java" file in nano.
- 
+
 ![Image](lab4-10.png)
+I fixed the error by using the arrow keys to get to the line where the error occured. I fixed the error. I then used ^o to save the file, and ^x to exit nano.
+ 
+## Step 8
+Run the tests, demonstrating that they now succeed
+![Image](lab4-11.png)
+I recompiled all files and re-ran the junit tests. I did this again by copying and pasting the commands (the same as step 6) into the terminal.
+ 
+## Step 9
+Commit and push the resulting change to your Github account
+![Image](lab4-12.png)
+I fully typed the commands
+`git add ListExamples.java`
+`git commit -m "updated file"`
+`git push`
+
+ 
 
 
 
