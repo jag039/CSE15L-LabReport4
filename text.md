@@ -52,7 +52,7 @@ I copied and pasted both of these commands from the week 7 lab writeup.
 Edit the code file to fix the failing test
 ![Image](lab4-9.png)
 
-I typed nano List, then `< tab >` in order to auto complete ListExamples. I then added ".java" to the end and used `< enter >` to open the "ListExamples.java" file in nano.
+I typed `nano List`, then `< tab >` in order to auto complete ListExamples. I then added ".java" to the end and used `< enter >` to open the "ListExamples.java" file in nano.
 
 ![Image](lab4-10.png)
 I fixed the error by using the arrow keys to get to the line where the error occured. I fixed the error. I then used `< ^o >` to save the file, and `< ^x >` to exit nano.
@@ -71,7 +71,7 @@ I fully typed the commands
  
 `git commit -m "updated file"` `< enter >`
  
-`git push` `< emter >`
+`git push` `< enter >`
 
  
 
