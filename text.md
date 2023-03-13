@@ -20,11 +20,17 @@ The real deal Start the timer! - during the lab I got to a time of 1:20.
 ## Step 4
 Log into ieng6
 ![Image](lab4-5.png)
-I first opened terminal. I then entered bash in the terminal. Once inside of bash I logged into ieng6 by typing 
+I first opened terminal. I then entered bash in the terminal.
 
-`ssh cs15lwi23aez@ieng6.ucsd.edu`.
+`bash` `< enter >`
+
+Once inside of bash I logged into ieng6 by typing 
+
+`ssh cs15lwi23aez@ieng6.ucsd.edu` `< enter >`
 
 I fully typed this, as I now have it memorized.
+I then typed my password and used the `< enter >` command
+
 ## Step 5
 Clone your fork of the repository from your Github account
 ![Image](lab4-6.png)
