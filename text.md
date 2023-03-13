@@ -37,23 +37,25 @@ Clone your fork of the repository from your Github account
 ![Image](lab4-7.png)
 I first copied the ssh link of the lab7 repository. I then used the command 
 
-`git clone git@github.com:jag039/lab7.git` 
+`git clone git@github.com:jag039/lab7.git` `< enter >`
 
-to clone the repository into my ieng6 account. I just typed "git clone" and pressed "command v" to paste the url.
+to clone the repository into my ieng6 account. I just typed "git clone" and used `< command v >` to paste the url, then finishing the command by using `< enter >`
+
 ## Step 6
 Run the tests, demonstrating that they fail
 ![Image](lab4-8.png)
-First I changed into the lab7 directory. Then I compiled all files in the directory. Then I ran the Junit Tests. In order to change the directories I just used `cd lab7`. Then I compiled by copying and pasting this command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. And i ran the junit test using `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`.
+First I changed into the lab7 directory. Then I compiled all files in the directory. Then I ran the Junit Tests. In order to change the directories I just used `cd lab7` `< enter >`. Then I compiled by copying and pasting (using `< command c >` to copy and `< command v >` to paste) this command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` `< enter >`. And then I ran the junit test using `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` `< enter > `.
 
 I copied and pasted both of these commands from the week 7 lab writeup.
+
 ## Step 7
 Edit the code file to fix the failing test
 ![Image](lab4-9.png)
 
-I typed nano List, then <tab> in order to auto complete ListExamples. I then added ".java" to the end to open the "ListExamples.java" file in nano.
+I typed nano List, then `< tab >` in order to auto complete ListExamples. I then added ".java" to the end and used `< enter >` to open the "ListExamples.java" file in nano.
 
 ![Image](lab4-10.png)
-I fixed the error by using the arrow keys to get to the line where the error occured. I fixed the error. I then used ^o to save the file, and ^x to exit nano.
+I fixed the error by using the arrow keys to get to the line where the error occured. I fixed the error. I then used `< ^o >` to save the file, and `< ^x >` to exit nano.
  
 ## Step 8
 Run the tests, demonstrating that they now succeed
@@ -65,11 +67,11 @@ Commit and push the resulting change to your Github account
 ![Image](lab4-12.png)
 I fully typed the commands
  
-`git add ListExamples.java`
+`git add ListExamples.java` `< enter >`
  
-`git commit -m "updated file"`
+`git commit -m "updated file"` `< enter >`
  
-`git push`
+`git push` `< emter >`
 
  
 
